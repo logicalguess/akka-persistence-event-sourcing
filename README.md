@@ -3,7 +3,7 @@ Commands:
     ActorRef items = actorSystem.actorOf(ItemsCommandProcessor.props("1"), "items");
 
     items.tell(ItemAdd.create("101", "first"), null);
-    items.tell(ItemAdd.create("102", "first"), null);
+    items.tell(ItemAdd.create("102", "second"), null);
     
 Query:
     
