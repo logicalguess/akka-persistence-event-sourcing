@@ -49,6 +49,7 @@ public class ItemsQueryProcessor extends AbstractLoggingActor {
     @Override
     public Receive createReceive() {
         return ReceiveBuilder.create()
+                .match(ReceiveTimeout.class, this::receiveTimeout)
                 .match(ItemsGet.class, q -> sender().tell(items, self()))
                 .build();
     }
