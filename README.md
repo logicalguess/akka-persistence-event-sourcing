@@ -18,5 +18,5 @@ Query:
     ---------------------------------------------------------
     EVENT: ItemAdded[101, first]
     EVENT: ItemAdded[102, first]
-    Items[1, [Item[101, first], Item[102, first]]]
+    Items[1, [Item[101, first], Item[102, second]]]
     
