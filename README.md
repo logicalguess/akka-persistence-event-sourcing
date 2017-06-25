@@ -20,3 +20,5 @@ Query:
     EVENT: ItemAdded[102, second]
     Items[1, [Item[101, first], Item[102, second]]]
     
+    
+Credit: https://github.com/mckeeh3/akka-java-persistence
